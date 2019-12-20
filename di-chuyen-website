@@ -1,0 +1,13 @@
+B1: Nén tất cả tập tin trong thư mục gốc thành file zip
+B2: Upload file zip lên host và giải nén ra thư mục gốc
+B3: Vào phpmyadmin website nguồn xuất ra file sql
+B4: Tạo database mới trên host và nhập file sql vào
+B5: Mở file wp-config.php sửa lại nội dung:
+    <?php
+    define('WP_HOME','http://domain.com');
+    define('WP_SITEURL','http://domain.com');
+    define('DB_NAME', 'database-name');
+    define('DB_USER', 'database-user');
+    define('DB_PASSWORD', 'database-pass');
+B6: Cài plugin search & replace thay thế tên miền mới
+B7: Vào cài đặt cập nhật lại đường dẫn tĩnh
